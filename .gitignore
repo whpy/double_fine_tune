@@ -1,1 +1,3 @@
+model/original/*
 model/*
+*safetensors

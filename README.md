@@ -10,7 +10,7 @@
 │       ├── sft_llama.sh
 │       ├── test_sft_llama.sh
 ```
-where the ```LLaMA-Factory/``` stores the repo cloned from ```https://github.com/hiyouga/LLaMA-Factory.git```; ```model/``` stores the models to be trained(cloned from huggingface);```sh/``` stores the examples of usage.
+where the ```LLaMA-Factory/``` stores the repo cloned from ```https://github.com/hiyouga/LLaMA-Factory.git```; ```model/``` stores the models to be trained(cloned from huggingface), two ```*.py``` in it show how to download models;```sh/``` stores the examples of usage.
 
 ## environments
 We store two files about environments, ```pip_env.txt``` and ```conda_env.yaml```. They are environments of pip and conda respectively.

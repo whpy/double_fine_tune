@@ -4,7 +4,8 @@ configure the environment of llama_factory by the following command.
 
 ## run the model by llama-factory
 We here specify the number of available card by adjusting parameter CUDA_VISIBLE_DEVICES
-```CUDA_VISIBLE_DEVICES=[0,1] llamafactory-cli webchat --model_name_or_path ../model/llama3_8B --template llama3
+```shell
+CUDA_VISIBLE_DEVICES="0,1" llamafactory-cli webchat --model_name_or_path ../model/llama3_8B --template llama3
 ```
 
 ## Note 

@@ -66,6 +66,8 @@ def formatting_prompts_func(examples):
     return { "text" : texts, }
 pass
 
+
+# train the model by online datasets, processed by customized function.
 from datasets import load_dataset
 dataset = load_dataset("yahma/alpaca-cleaned", split = "train")
 dataset = dataset.map(formatting_prompts_func, batched = True,)
